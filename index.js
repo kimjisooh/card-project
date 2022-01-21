@@ -20,7 +20,6 @@
 //     }
 // }
 
-
 function open_letter() {
   // document.querySelector(".envelope_open").style.display = 'block';
   document.querySelector(".envelope").style.display = 'none';
