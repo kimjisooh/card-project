@@ -13,7 +13,8 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://kimjisooh.github.io/card-project/"
-
+  "homepage": "https://kimjisooh.github.io/card-project/",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
-  
+}
