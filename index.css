@@ -740,7 +740,7 @@ body {
 
     .envelope {
         margin: 96px auto 0 auto;
-        transform: translate(-52%, 270%);
+        transform: translate(-48%, 270%);
         background-size: 110px;
         animation: fadeImg .7s .7s ease-out forwards;
     }
@@ -751,19 +751,19 @@ body {
         }
         100% {
             opacity: 1;
-            transform: translate(-52%, 254%);
+            transform: translate(-48%, 254%);
             z-index: 1;
         }
     }
 
     .envelope-msg {
-        transform: translate(-50%, 130px);
+        transform: translate(-49%, 130px);
         font-size: 0.9rem;
     }
 
     .bubble {
         background: url('./images/bubble_2.png') no-repeat top/ 200px;
-        transform: translate(-51%, 120%);
+        transform: translate(-50%, 120%);
         animation: bottomToTop .6s .6s ease-out forwards; 
     }
 
@@ -771,12 +771,12 @@ body {
         100% {
             opacity: 1;
             transform: scale(1);
-            transform: translate(-51%, 110%);
+            transform: translate(-50%, 110%);
         }
     }
 
     .loading-bar {
-        transform: translate(5%, 71%);
+        transform: translate(10.5%, 71%);
     }
 
     .box {
@@ -796,12 +796,12 @@ body {
     }
 
     .bin {
-        transform: translate(-51%, 107.8%);
+        transform: translate(-50%, 107.8%);
         background-size: 90px;
     }
 
     .bin-msg {
-        transform: translate(-49%, 130px);
+        transform: translate(-48%, 130px);
         font-size: 0.9rem;
     }
 
@@ -819,7 +819,7 @@ body {
     }
 
     .messagebox {
-        width: 310px;
+        width: 320px;
         height: 320px;
         padding: 5%;
         font-size: 0.9rem;
