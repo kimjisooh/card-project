@@ -22,7 +22,7 @@
 
 function open_letter() {
   // document.querySelector(".envelope_open").style.display = 'block';
-  document.querySelector(".envelope").style.display = 'none';
+  // document.querySelector(".envelope").style.display = 'none';
   document.querySelector(".envelope-msg").style.display = 'none';
   document.querySelector('.background').className = "background show";
   document.querySelector('.popup').style.display = 'block';
