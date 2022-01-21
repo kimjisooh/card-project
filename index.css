@@ -683,12 +683,12 @@ body {
     text-align: center;
     margin-top: 280px;
     font-size: 1rem;
-    margin: 270px auto 0 auto;
+    margin: 260px auto 0 auto;
 }
 
 .messagebox {
     padding: 30px;
-    margin: 50px auto;
+    margin: 40px auto;
 
     /* background-color: #feeff0; */
     background-color: #fff;
@@ -823,7 +823,7 @@ body {
         height: 320px;
         padding: 5%;
         font-size: 0.9rem;
-        margin: 40px auto;
+        margin: 30px auto;
         border: 2px solid #000;
     }
 
