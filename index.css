@@ -819,8 +819,8 @@ body {
     }
 
     .messagebox {
-        width: 320px;
-        height: 320px;
+        width: 310px;
+        height: 310px;
         padding: 5%;
         font-size: 0.9rem;
         margin: 30px auto;
