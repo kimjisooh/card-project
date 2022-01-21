@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimum-sacle=1">
+  <title>Happy Birthday</title>
+
+  <!--favicon-->
+  <!-- <link rel="shortcut icon"
+    href="https://icons.iconarchive.com/icons/icons8/christmas-flat-color/256/christmas-tree-icon.png"> -->
+  <link rel="shortcut icon"
+    href="./images/cake_icon.png" class="cake-icon">
+
+  <!--링크 미리보기: OpenGraph Tag(op)-->
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1544277879-42659615e478?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1056&q=80">
+  <meta property="og:title" content="똑똑!">
+  <meta property="og:description" content="2022 Happy Birthday">
+
+  <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <!-- main -->
+  <link rel="stylesheet" href="./index_2.css">
+
+
+</head>
+
+<body>
+  <div class="letter-close">
+    <!-- <img src="./images/background_1.png" alt="back"> -->
+    <!-- <img class="title" src="./images/title.png" alt="title"> -->
+    <div class="envelope" onclick="open_letter()"></div>
+    <div class="bubble"></div>
+    <div class="envelope_open" onclick="open_letter()"></div>
+    <div class="back">
+      <!-- <img src="./images/computer.png" alt="computer"> -->
+    </div>
+    <h2 class="envelope-msg">편지를 클릭해주세요.</h2>
+
+    <!-- <div class="mailbox"></div> -->
+
+    <!-- modal -->
+    <div class="background">
+      <div class="window">
+        <div class="popup">
+          <input type="button" class="img-btn">
+          <p>편지를 열어보시겠습니까?</p>
+          <p class="open">예
+            <!-- <span class="arrow-right"></span> -->
+          </p>
+          <span class="arrow-right"></span>
+          <span class="arrow"></span>
+          <p class="close">아니오
+            <span class="close-arrow"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="loading-bar">
+      <div class="box"></div>
+    </div>
+
+    <!-- Letter Close -->
+  <div class="go-bin">
+    <div class="bin"></div>
+    <p class="bin-msg">휴지통으로 이동했습니다.</p>
+  </div>
+
+  </div>
+  <!-- <div class="loading-bar">
+    <div class="box"></div>
+  </div> -->
+
+  <!-- Letter Close -->
+  <!-- <div class="go-bin">
+    <div class="bin"></div>
+    <p class="bin-msg"></p>
+  </div> -->
+  
+
+  <!-- Letter Open -->
+  <div class="hidden-back"></div>
+  <div class="open-msg"></div>
+  <div class="letter-open">
+    <div class="rtan" onclick="go_rtan()"></div>
+    <p class="hidden-msg">(숨은 메세지를 찾아보세요)</p>
+    <div class="messagebox">
+
+      <p>
+        지선작가님께♥<br />
+        작가님 건강히 지내고 계신거죠? 아프면 안돼요!<br />
+        아직 겨울이 많이 춥지만, 금방 또 따뜻해질테니<br />
+        작가님도 따땃한 날들 보내시길 바랄게요<br />
+        올해는 작년보다 웃는 날이 더 가득하실 수 있게<br />
+        작가님을 더 많이 많이 응원할게요<br />
+        오늘만큼은 그 누구보다 작가님의 행복이<br />
+        최우선이라는 거 잊지마시고,<br />
+        맛있는 거 많이 드시면서 즐겁게 보내세요!<br />
+        생일 진심으로 축하드립니당♡<br />
+      </p>
+      
+      <pre>지선작가님께♥
+작가님 건강히 지내고 계신거죠? 아프면 안돼요!
+아직 겨울이 많이 춥지만, 금방 또 따뜻해질테니 
+작가님도 따땃한 날들 보내시길 바랄게요
+올해는 작년보다 웃는 날이 더 가득하실 수 있게 
+작가님을 많이 많이 응원할게요
+오늘만큼은 그 누구보다 작가님의 행복이
+최우선이라는 거 잊지마시고,
+맛있는 거 많이 드시면서 즐겁게 보내세요!
+생일 진심으로 축하드립니당♡
+                                                     2022.01.22</pre>
+
+      <p class="from"><span class="this_year"></span>2022.01.22</p>
+      <script type="text/javascript" src="js/getYear.js"></script>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./index_2.js"></script>
+</body>
+
+</html>
