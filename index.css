@@ -667,7 +667,7 @@ body {
 
     background: url('./images/main-character.png') no-repeat -50px / 400px;
 
-    margin: 70px auto 50px auto;
+    margin: 50px auto 50px auto;
     position: absolute;
     top: 15%;
     left: 50%;
@@ -808,7 +808,7 @@ body {
     .rtan {
         width: 120px;
         height: 150px;
-        margin: 40px auto 0px auto;
+        margin: 30px auto 0px auto;
         background: url('./images/main-character.png') no-repeat -30px / 300px;
         animation: run 1.3s infinite steps(2);
     }
