@@ -47,6 +47,7 @@ document.querySelector('.close').addEventListener("mouseout", out_Mouse);
 
 
 function close_letter() {
+  document.querySelector(".envelope").style.display = 'none';
   document.querySelector('.background').className = "background";
   document.querySelector('.bin').style.display = 'block';
   document.querySelector('.bin-msg').style.display = 'block';
