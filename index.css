@@ -5,6 +5,7 @@
 
 * {
     /* font-family: 'Nanum Pen Script', cursive; */
+    list-style: none;
     font-family: 'pixel';
     font-size: 1.1rem;
     margin: 0;
@@ -735,7 +736,7 @@ body {
 
     .envelope-msg {
         transform: translate(-49%, 130px);
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
     .bubble {
@@ -779,7 +780,7 @@ body {
 
     .bin-msg {
         transform: translate(-48%, 130px);
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
     .rtan {
