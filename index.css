@@ -683,7 +683,7 @@ body {
     text-align: center;
     margin-top: 280px;
     font-size: 1rem;
-    margin: 280px auto 0 auto;
+    margin: 270px auto 0 auto;
 }
 
 .messagebox {
@@ -815,7 +815,7 @@ body {
 
     .hidden-msg {
       font-size: 0.9rem;
-      margin: 220px auto 0 auto;
+      margin: 210px auto 0 auto;
     }
 
     .messagebox {
