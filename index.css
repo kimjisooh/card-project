@@ -175,25 +175,6 @@ body {
     }
 }
 
-/* .mailbox {
-    background-position: center;
-    background-image: url('./images/mailbox.png');
-    background-repeat: no-repeat;
-    background-size: 1000px;
-} */
-
-/* .letter-close p {
-    color: #fff;
-    margin: 20px auto 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    letter-spacing: 5px;
-    font-size: 3rem;
-    text-align: center;
-    transform: translate(-45%, 50px);
-} */
-
 /* loading-bar */
 .loading-bar {
     display: none;
@@ -694,6 +675,7 @@ body {
     width: 350px;
     /* height: 340px; */
 
+    font-size: 1rem;
     border-radius: 2px;
     /* border: 2px solid #f56280; */
     border: 3px solid #000;
@@ -701,15 +683,11 @@ body {
     /* box-shadow: 3px 3px 0px 0px #ff4369; */
 }
 
-.messagebox p {
+.messagebox pre {
     display: block;
     color: #000;
     font-size: 0.9rem;
     line-height: 30px;
-}
-
-.messagebox pre {
-    display: none;
 }
 
 
@@ -818,21 +796,16 @@ body {
     }
 
     .messagebox {
-        width: 320px;
-        height: 320px;
+        width: 300px;
+        /* height: 310px; */
         padding: 5%;
-        font-size: 0.9rem;
         margin: 30px auto;
         border: 2px solid #000;
     }
 
-    .messagebox p {
-        display: none;
-    }
-
     .messagebox pre {
         display: block;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         line-height: 30px;
         padding: 0;
         margin: 0;
