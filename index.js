@@ -20,6 +20,9 @@
 //     }
 // }
 
+android:stateListAnimator = "@null"
+android:background="#00ff0000"
+
 function open_letter() {
   // document.querySelector(".envelope_open").style.display = 'block';
   document.querySelector(".envelope").style.display = 'none';

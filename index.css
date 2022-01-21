@@ -58,6 +58,7 @@ body {
     }
 } */
 
+
 .envelope {
     width: 50px;
     height: 45px;
@@ -68,9 +69,6 @@ body {
     background-position: center;
 
     margin: 130px auto 0 auto;
-
-    border: 0;
-    outline: 0;
     cursor: pointer;
     position: absolute;
     top: 50%;
