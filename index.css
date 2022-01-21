@@ -536,7 +536,7 @@ body {
    position: absolute;
    /* bottom: 30%; */
    top: 77%;
-   left: 23%;
+   left: 24%;
    float: left;
    /* right: 30%; */
    width: 70px;
@@ -808,7 +808,7 @@ body {
     .rtan {
         width: 120px;
         height: 150px;
-        margin: 50px auto 0px auto;
+        margin: 40px auto 0px auto;
         background: url('./images/main-character.png') no-repeat -30px / 300px;
         animation: run 1.3s infinite steps(2);
     }
@@ -823,7 +823,7 @@ body {
         height: 320px;
         padding: 5%;
         font-size: 0.9rem;
-        margin: 50px auto;
+        margin: 40px auto;
         border: 2px solid #000;
     }
 
