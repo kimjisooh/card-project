@@ -73,7 +73,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-58%, 200%);
+    transform: translate(-48%, 200%);
     opacity: 0; 
     animation: fadeImg .7s .7s ease-out forwards;
 }
@@ -84,7 +84,7 @@ body {
     }
     100% {
         opacity: 1;
-        transform: translate(-58%, 183%);
+        transform: translate(-48%, 183%);
         z-index: 1;
     }
 }
@@ -93,7 +93,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-53%, 150%);
+    transform: translate(-50%, 150%);
     width: 180px;
     height: 130px;
     /* border: 2px solid #fff;
@@ -107,7 +107,7 @@ body {
     100% {
         opacity: 1;
         transform: scale(1);
-        transform: translate(-53%, 140%);
+        transform: translate(-50%, 140%);
     }
 }
 
@@ -160,7 +160,7 @@ body {
     font-weight: 400;
     font-size: 1rem;
     text-align: center;
-    transform: translate(-52%, 120px);
+    transform: translate(-50%, 120px);
     opacity: 0; 
     animation: fadeOutText 2.5s 0.6s linear forwards;
 }
@@ -203,7 +203,7 @@ body {
     top: 50%;
     left: 50%;
     margin-left: 24.5px;
-    transform: translate(5%, 72%);
+    transform: translate(17%, 72%);
     transition: all .2s ease;
 }
 
@@ -315,7 +315,7 @@ body {
   height: 150px;
   top: 50%;
   left: 50%;
-  transform: translate(-54%, 109.5%);
+  transform: translate(-50%, 109.5%);
   /* background-image: url('./images/trash-bin.png'); */
   background-image: url('./images/bin.png');
   background-position: center;
@@ -345,7 +345,7 @@ body {
     font-weight: 400;
     font-size: 1rem;
     text-align: center;
-    transform: translate(-52%, 120px);
+    transform: translate(-49%, 120px);
     opacity: 0; 
     animation: fadeInText 3.5s 0.5s linear forwards;
 }
