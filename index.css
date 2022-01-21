@@ -494,7 +494,6 @@ body {
 }
 
 .popup .open {
-    display: block;
     position: absolute;
     /* bottom: 30%; */
     top: 52%;
@@ -532,7 +531,6 @@ body {
     
 
 .popup .close {
-    display: block;
    position: absolute;
    /* bottom: 30%; */
    top: 77%;
